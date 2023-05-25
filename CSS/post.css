@@ -1,0 +1,65 @@
+body{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+main{
+    margin: 20px;
+    width: 80vw;
+
+}
+
+.blog-text{
+    margin-left: 0.1em;
+    margin-bottom: 2em;
+}
+
+
+#img-post{
+    width: 90vw;
+}
+
+
+@media (min-width: 391px) {
+
+
+    main{
+        margin: 20px 2em;
+    }
+
+    #img-post{
+        width: 87vw;
+        margin: 2em 0;
+
+    }
+
+}
+
+@media (min-width: 599px) {
+
+
+    main{
+        margin: 3em  10vw  2em;
+    }
+
+    .post-intro{
+        width: auto;
+    }
+
+   
+
+    #img-post{
+        width: 93vw;
+        margin-left: -7vw;
+    }
+    
+    #content{
+
+        width: 60vw;
+    }
+    
+}
