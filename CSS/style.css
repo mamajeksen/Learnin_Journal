@@ -84,7 +84,7 @@ footer{
 /*intro */
 
 .intro {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.531)), url(/images/header-pic.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.531)), url(../images/header-pic.jpg);
     background-size:cover;
     color: #e7e6e6;
     grid-row: 2/3;
@@ -203,7 +203,7 @@ filter:
 
     .intro{
     padding-left: 3.5em;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.531)),url(/images/header-pic.jpg) ;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.531)),url(../images/header-pic.jpg) ;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -282,7 +282,7 @@ filter:
 
     .intro{
         grid-area: main;
-        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.531)),url(/images/header-pic.jpg) fixed;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.531)),url(../images/header-pic.jpg) fixed;
         box-shadow: inset black 60px -60px 200px 30px;
         background-size: cover;
         justify-self: center;
